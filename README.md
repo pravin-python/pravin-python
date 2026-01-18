@@ -188,15 +188,4 @@ Feel free to explore my repositories and reach out for collaboration opportuniti
 
 ---
 
-## 📈 Recent Activity
-
-**December 2025 Highlights:**
-- 11 commits to LeadBridge (41% of commits)
-- 6 commits to hivebrain (23% of commits)
-- 5 commits to SamPOS_Dashboard (19% of commits)
-- 4 commits to scraper-code (15% of commits)
-- 1 commit to work_detection (4% of commits)
-
----
-
 *"Code is poetry written in a language computers can understand. Let's create something amazing together!"* ✨
