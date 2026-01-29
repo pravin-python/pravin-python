@@ -4,7 +4,7 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=19&duration=2000&pause=1000&color=22c55e&multiline=true&width=700&height=300&lines=Hello%2C+I'm+Pravin+Prajapati;Full-Stack+Dev+%7C+AI%2FML+Engineer;Cybersecurity+%7C+Web+Scraping+Expert;Based+in+Ahmedabad%2C+India+%F0%9F%87%AE%F0%9F%87%B3;;I+specialize+in%3A;->+Backend%3A+Python+(Django%2C+FastAPI)%2C+REST+APIs;->+AI%2FML%3A+LLMs%2C+NLP%2C+Model+Deployment;+->+Scraping%3A+BS4%2C+Selenium%2C+Data+Extraction;->+Security%3A+Ethical+Hacking%2C+Network+Sec;->+Full-Stack%3A+End-to-end+modern+solutions)](https://git.io/typing-svg)
 
-## 🛠️ Technological Arsenal
+## Technological Arsenal
 
 | **Category** | **Technologies** |
 |:------------:|:-----------------|
