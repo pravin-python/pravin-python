@@ -1,191 +1,45 @@
-# 👋 Welcome to My GitHub Portfolio!
+![Bottom_up.svg](Images/Bottom_up.svg)
 
-I'm **Pravin Prajapati**, a full-stack developer and cybersecurity enthusiast passionate about building scalable applications and automating complex workflows.
+## About ME
 
----
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=19&duration=2000&pause=1000&color=22c55e&multiline=true&width=700&height=300&lines=Hello%2C+I'm+Pravin+Prajapati;Full-Stack+Dev+%7C+AI%2FML+Engineer;Cybersecurity+%7C+Web+Scraping+Expert;Based+in+Ahmedabad%2C+India+%F0%9F%87%AE%F0%9F%87%B3;;I+specialize+in%3A;->+Backend%3A+Python+(Django%2C+FastAPI)%2C+REST+APIs;->+AI%2FML%3A+LLMs%2C+NLP%2C+Model+Deployment;+->+Scraping%3A+BS4%2C+Selenium%2C+Data+Extraction;->+Security%3A+Ethical+Hacking%2C+Network+Sec;->+Full-Stack%3A+End-to-end+modern+solutions)](https://git.io/typing-svg)
 
-## 🚀 About Me
+## 🛠️ Technological Arsenal
 
-**Full-Stack Developer** | **AI/ML Engineer** | **Cybersecurity Enthusiast** | **Web Scraping Expert**
+| **Category** | **Technologies** |
+|:------------:|:-----------------|
+| **Languages** | ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![SQL](https://img.shields.io/badge/SQL-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white) |
+| **Frameworks** | ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi&logoColor=white) ![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge) ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) |
+| **AI & Data** | ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-013243?style=for-the-badge&logo=numpy&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white) ![Scikit-Learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white) |
+| **Agents & GenAI** | ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white) ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white) ![CrewAI](https://img.shields.io/badge/CrewAI-EB4C42?style=for-the-badge&logo=openai&logoColor=white) ![AutoGPT](https://img.shields.io/badge/AutoGPT-000000?style=for-the-badge&logo=openai&logoColor=white) ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white) ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black) |
+| **Web Scraping** | ![Selenium](https://img.shields.io/badge/-selenium-%2343B02A?style=for-the-badge&logo=selenium&logoColor=white) ![BeautifulSoup](https://img.shields.io/badge/BeautifulSoup-000000?style=for-the-badge&logo=python&logoColor=white) ![Crawlee](https://img.shields.io/badge/Crawlee-11559C?style=for-the-badge&logo=crawlee&logoColor=white) ![Cheerio](https://img.shields.io/badge/Cheerio-e88c1f?style=for-the-badge&logo=cheerio&logoColor=white) ![PyQuery](https://img.shields.io/badge/PyQuery-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Kali](https://img.shields.io/badge/Kali-268BEE?style=for-the-badge&logo=kalilinux&logoColor=white) |
+| **Databases** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white) |
+| **DevOps & Tools** | ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) |
 
-Based in **Ahmedabad, India** 🇮🇳
+<div align="center">
+  <img src="Images/cyber_hud.svg" width="100%" alt="Cyber Security HUD Animation" />
+</div>
 
-I specialize in:
-- **Backend Development**: Python (FastAPI, Django), RESTful APIs, Database Design
-- **AI/ML Integration**: LLM implementation, Model deployment, NLP solutions
-- **Web Scraping**: Beautiful Soup, Selenium, Data extraction & transformation
-- **Cybersecurity**: Ethical hacking, Network security, Penetration testing basics
-- **Full-Stack Projects**: End-to-end development with modern frameworks
+## Let's Collaborate
 
-**Current Role**: Full-Stack Developer at **Dolphin Web Solution Pvt Ltd**
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=22c55e&multiline=true&width=800&height=200&lines=If+you+are+a+developer+with+a+similar+stack;and+want+to+build+something+cool+together%2C;I'm+always+open+to+collaboration+on%3A;%E2%80%A2+Open-source+contributions;%E2%80%A2+Full-stack+projects+with+modern+tech;%E2%80%A2+AI%2FML+integration+%26+Web+Scraping;%E2%80%A2+Cybersecurity+research+%26+Ethical+hacking;Feel+free+to+reach+out!)](https://git.io/typing-svg)
 
----
+## Connect With Me
 
-## 🛠️ Tech Stack
+<div align="center">
+<a href="mailto:pravin.prajapati0126@gmail.com" target="_blank">
+<img height="50px" src="Images/logo-mail.png" width="50px" alt="Gmail">
+<a href="https://www.linkedin.com/in/pravin-prajapati-706722281/" target="_blank">
+<img height="50px" src="Images/linkedin.svg" width="50px" alt="LinkedIn">
+</a>
+</a>
+<a href="https://t.me/redskull260703" target="_blank">
+<img height="50px" src="Images/logo-telegram.png" width="50px" alt="Telegram">
+</a>
+<a href="https://silly-puppy-aca6d8.netlify.app/" target="_blank">
+<img height="50px" src="Images/portfolio.png" width="50px" alt="Portfolio">
+</a>
 
-### Languages & Frameworks
-- **Backend**: Python, PHP, JavaScript, SQL
-- **Frameworks**: Django, FastAPI, Express.js
-- **Databases**: MySQL, PostgreSQL, MongoDB
-- **Frontend**: HTML, CSS, React.js, Next.js
+</div>
 
-### AI/ML & Data
-- **Libraries**: TensorFlow, scikit-learn, Pandas, NumPy
-- **LLM Tools**: LocalAI, Ollama, Pixtral, Llama models
-- **Computer Vision**: OpenCV, image processing
-- **NLP**: NLTK, spaCy, Text analysis
-
-### Tools & Platforms
-- **Version Control**: Git, GitHub
-- **Web Scraping**: BeautifulSoup, Selenium
-- **APIs**: RESTful APIs, FastAPI, Django REST Framework
-- **Deployment**: Docker, Netlify, Local deployment
-- **Testing & Security**: Pytest, penetration testing
-
----
-
-## 📂 Featured Projects
-
-### 🏆 Active Projects
-
-#### **[LeadBridge](https://github.com/pravin-python/LeadBridge)** `[Private]`
-A comprehensive lead management and CRM solution with Python backend
-- 11+ commits in December 2025
-- Lead tracking, pipeline management, automation features
-
-#### **[hivebrain](https://github.com/pravin-python/hivebrain)** `[Python]`
-AI-powered knowledge management system
-- Latest updates: Dec 28, 2025
-- 6+ commits with recent enhancements
-
-#### **[work_detection](https://github.com/pravin-python/work_detection)** `[Python]`
-Activity monitoring and work detection system
-- Computer vision and behavior analysis
-- Recently updated
-
-#### **[SamPOS_Dashboard](https://github.com/pravin-python/SamPOS_Dashboard)** `[Private, JavaScript]`
-Modern Point-of-Sale (POS) dashboard interface
-- 5+ commits, robust UI/UX design
-
-#### **[scraper-code](https://github.com/pravin-python/scraper-code)** `[Python, Private]`
-Advanced web scraping toolkit
-- Data extraction from multiple sources
-- ETL pipeline integration
-
-#### **[Student-Skill-Swap](https://github.com/pravin-python/Student-Skill-Swap)** `[Django, Python3, REST API]`
-Full-stack web application for student skill exchange
-- Django + Django REST Framework backend
-- Interactive peer-to-peer skill marketplace
-- Real-time notifications and messaging
-
-### 📚 Educational & Demo Projects
-
-#### **[Complete-Beginner-s-Guide-to-AI-and-Machine-Learning](https://github.com/pravin-python/Complete-Beginner-s-Guide-to-AI-and-Machine-Learning)**
-Comprehensive AI/ML learning resource
-- Tutorials, examples, best practices
-- ⭐ 1 star
-
-#### **[FactAPI-demo](https://github.com/pravin-python/FactAPI-demo)** `[FastAPI, Python]`
-FastAPI best practices demonstration
-- RESTful API implementation
-- Request validation, response modeling
-- Production-ready patterns
-
-#### **[python-fast-api](https://github.com/pravin-python/python-fast-api)** `[Python]`
-FastAPI + MySQL integration example
-- SQLAlchemy ORM usage
-- Database schema design
-- CRUD operations example
-- ⭐ 1 star
-
-### 🎨 Web Development & E-Commerce
-
-#### **[northwind](https://github.com/pravin-python/northwind)** `[CSS, HTML]`
-Modern e-commerce platform built on Northwind dataset
-- Complete shopping experience
-- Product catalog, cart, checkout
-- ⭐ 1 star
-
-#### **[ecommerce_report](https://github.com/pravin-python/ecommerce_report)** `[CSS, HTML]`
-E-commerce analytics and reporting dashboard
-- Stock availability tracking
-- Sales performance metrics
-- Revenue analysis
-- ⭐ 1 star
-
-#### **[Pravin-Portfolio](https://github.com/pravin-python/Pravin-Portfolio)** `[HTML, CSS]`
-Personal portfolio website
-- Responsive design
-- Skills showcase
-- Project gallery
-
-#### **[DevSpace](https://github.com/pravin-python/DevSpace)** `[HTML, CSS]`
-Professional portfolio & service showcase
-- Skills demonstration (Python, AI, ML, Web Scraping)
-- Knowledge sharing platform
-
-### 💻 Other Projects
-
-#### **[hivebrain-desktop](https://github.com/pravin-python/hivebrain-desktop)** `[JavaScript, Private]`
-Desktop application companion to hivebrain
-- Cross-platform support
-- Modern UI with Electron
-
-#### **[AMS](https://github.com/pravin-python/AMS)** `[Admission Management System]`
-Educational institution admission workflow system
-
-#### **[asp.net](https://github.com/pravin-python/asp.net)**
-ASP.NET projects and examples
-
----
-
-## 📊 GitHub Statistics
-
-- **18 Repositories** (Public & Private)
-- **94 Contributions** in the last year
-- **27 Commits** in December 2025 across 5 repositories
-- **Active Learner** with consistent project development
-
----
-
-## 💡 What I'm Currently Working On
-
-- **🔧 LeadBridge**: Enhancing CRM capabilities with automation
-- **🧠 hivebrain**: Building AI-powered knowledge management features
-- **📊 Work Detection**: Implementing advanced activity analytics
-- **🤖 LLM Integration**: Exploring LocalAI and Ollama for local deployment
-- **📚 Learning**: Advanced cybersecurity, NLP, and computer vision applications
-
----
-
-## 🎓 Education & Certifications
-
-- **MCA Graduate** (Master of Computer Applications) - India
-- **ORCID Profile**: [0009-0003-0532-3490](https://orcid.org/0009-0003-0532-3490)
-- **Continuous Learning**: AI/ML, Cybersecurity, Advanced Web Development
-
----
-
-## 🔗 Connect With Me
-
-- **LinkedIn**: [pravin-prajapati-706722281](https://www.linkedin.com/in/pravin-prajapati-706722281/)
-- **Website**: [DevSpace Portfolio](https://silly-puppy-aca6d8.netlify.app/)
-- **Company**: [Dolphin Web Solution Pvt Ltd](https://dolphinwebsolution.com/)
-- **Location**: Ahmedabad, India
-
----
-
-## 🤝 Let's Collaborate!
-
-I'm always interested in:
-- **Open-source contributions** 🌐
-- **Full-stack projects** with modern tech stacks
-- **AI/ML integration** in practical applications
-- **Web scraping & data extraction** projects
-- **Cybersecurity research** and ethical hacking
-
-Feel free to explore my repositories and reach out for collaboration opportunities!
-
----
-
-*"Code is poetry written in a language computers can understand. Let's create something amazing together!"* ✨
+![Bottom_down.svg](Images/Bottom_down.svg)

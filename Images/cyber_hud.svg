@@ -1,0 +1,114 @@
+<svg width="800" height="250" viewBox="0 0 800 250" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        .bg { fill: #050505; }
+        .grid {
+            stroke: #00FF41;
+            stroke-width: 0.5;
+            opacity: 0.2;
+        }
+        .text {
+            font-family: 'Courier New', monospace;
+            fill: #00FF41;
+            font-size: 24px;
+            font-weight: bold;
+            text-shadow: 0 0 5px #00FF41;
+        }
+        .small-text {
+            font-family: 'Courier New', monospace;
+            fill: #00FF41;
+            font-size: 14px;
+            opacity: 0.7;
+        }
+        
+        /* Animations */
+        .scan {
+            fill: url(#grad);
+            animation: scan-anim 4s linear infinite;
+        }
+        
+        @keyframes scan-anim {
+            0% { transform: translateY(-100%); }
+            100% { transform: translateY(100%); }
+        }
+
+        .pulse {
+            animation: pulse-anim 2s infinite;
+        }
+        @keyframes pulse-anim {
+            0% { opacity: 0.5; }
+            50% { opacity: 1; text-shadow: 0 0 15px #00FF41; }
+            100% { opacity: 0.5; }
+        }
+
+        .ring {
+            fill: none;
+            stroke: #00FF41;
+            stroke-width: 2;
+            stroke-dasharray: 20, 20;
+            transform-origin: 400px 125px;
+            animation: rotate-cw 10s linear infinite;
+        }
+        .ring-inner {
+            fill: none;
+            stroke: #008F11;
+            stroke-width: 4;
+            stroke-dasharray: 10, 30;
+            transform-origin: 400px 125px;
+            animation: rotate-ccw 8s linear infinite;
+        }
+
+        @keyframes rotate-cw { 100% { transform: rotate(360deg); } }
+        @keyframes rotate-ccw { 100% { transform: rotate(-360deg); } }
+
+        .glitch { animation: glitch-anim 3s infinite; }
+        @keyframes glitch-anim {
+            0% { transform: translate(0); }
+            2% { transform: translate(-2px, 1px); }
+            4% { transform: translate(2px, -1px); }
+            6% { transform: translate(0); }
+            100% { transform: translate(0); }
+        }
+    </style>
+    
+    <defs>
+        <linearGradient id="grad" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="transparent"/>
+            <stop offset="50%" stop-color="#00FF41" stop-opacity="0.2"/>
+            <stop offset="100%" stop-color="transparent"/>
+        </linearGradient>
+        <pattern id="grid-pattern" width="40" height="40" patternUnits="userSpaceOnUse">
+            <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#00FF41" stroke-width="0.5" opacity="0.1"/>
+        </pattern>
+    </defs>
+
+    <!-- Background -->
+    <rect class="bg" width="100%" height="100%"/>
+    <rect width="100%" height="100%" fill="url(#grid-pattern)"/>
+
+    <!-- Center HUD -->
+    <circle cx="400" cy="125" r="80" class="ring" />
+    <circle cx="400" cy="125" r="60" class="ring-inner" />
+    <circle cx="400" cy="125" r="5" fill="#00FF41" class="pulse" />
+
+    <!-- Text Interface -->
+    <text x="30" y="40" class="text glitch">SYSTEM_STATUS: ONLINE</text>
+    <text x="30" y="70" class="small-text">IP: 127.0.0.1 (LOCALHOST)</text>
+    <text x="30" y="90" class="small-text">PORT: 8080 [OPEN]</text>
+    <text x="30" y="110" class="small-text">SECURE CON: TRUE</text>
+
+    <!-- Right-side Logic -->
+    <text x="600" y="40" class="text">MODULES_ACTIVE:</text>
+    <text x="600" y="70" class="small-text">> AI_CORE... OK</text>
+    <text x="600" y="90" class="small-text">> SCRAPERS... RUNNING</text>
+    <text x="600" y="110" class="small-text">> DEFENSE... ACTIVE</text>
+
+    <!-- Scanning Beam -->
+    <rect class="scan" width="100%" height="50" y="-50" />
+    
+    <!-- Border Corners -->
+    <path d="M 10,50 L 10,10 L 50,10" fill="none" stroke="#00FF41" stroke-width="2" />
+    <path d="M 790,50 L 790,10 L 750,10" fill="none" stroke="#00FF41" stroke-width="2" />
+    <path d="M 10,200 L 10,240 L 50,240" fill="none" stroke="#00FF41" stroke-width="2" />
+    <path d="M 790,200 L 790,240 L 750,240" fill="none" stroke="#00FF41" stroke-width="2" />
+
+</svg>
