@@ -141,10 +141,8 @@
 
         <!-- Center Reactor -->
         <circle cy="0" cx="0" class="core" />
-        <!-- A letter -->
         <path d="M -18 18 L -9 -18 L 0 18" fill="none" stroke="#000" stroke-width="3" />
         <path d="M -14 3 L -4 3" fill="none" stroke="#000" stroke-width="3" />
-        <!-- I letter -->
         <path d="M 9 -18 L 9 18" fill="none" stroke="#000" stroke-width="3" />
     </g>
 
