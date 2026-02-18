@@ -1,111 +1,188 @@
 <svg width="800" height="300" viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg">
     <style>
-        .bg { fill: #0a0e17; }
+        .bg {
+            fill: #0a0e17;
+        }
+
         .text-neon {
             font-family: 'Courier New', monospace;
             fill: #00ff9d;
             font-weight: bold;
             text-shadow: 0 0 5px rgba(0, 255, 157, 0.5);
         }
+
         .text-dim {
             font-family: 'Courier New', monospace;
             fill: #4b6e82;
             font-size: 12px;
         }
-        
+
         /* Core Animations */
         @keyframes pulse-core {
-            0%, 100% { r: 35; opacity: 0.8; filter: drop-shadow(0 0 10px #00ff9d); }
-            50% { r: 38; opacity: 1; filter: drop-shadow(0 0 20px #00ff9d); }
+
+            0%,
+            100% {
+                r: 35;
+                opacity: 0.8;
+                filter: drop-shadow(0 0 10px #00ff9d);
+            }
+
+            50% {
+                r: 38;
+                opacity: 1;
+                filter: drop-shadow(0 0 20px #00ff9d);
+            }
         }
-        @keyframes rotate-outer { 100% { transform: rotate(360deg); } }
-        @keyframes rotate-inner { 100% { transform: rotate(-360deg); } }
+
+        @keyframes rotate-outer {
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        @keyframes rotate-inner {
+            100% {
+                transform: rotate(-360deg);
+            }
+        }
+
         @keyframes float-scan {
-            0% { transform: translateY(-10px); opacity: 0; }
-            50% { opacity: 0.5; }
-            100% { transform: translateY(300px); opacity: 0; }
+            0% {
+                transform: translateY(-10px);
+                opacity: 0;
+            }
+
+            50% {
+                opacity: 0.5;
+            }
+
+            100% {
+                transform: translateY(300px);
+                opacity: 0;
+            }
         }
-        @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
-        @keyframes type-cursor { from { width: 0; } to { width: 100%; } }
+
+        @keyframes blink {
+
+            0%,
+            100% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0;
+            }
+        }
+
+        @keyframes type-cursor {
+            from {
+                width: 0;
+            }
+
+            to {
+                width: 100%;
+            }
+        }
 
         /* Elements */
-        .core { fill: #00ff9d; animation: pulse-core 3s infinite ease-in-out; }
-        .orbit { 
-            fill: none; 
-            stroke: #2d4545; 
-            stroke-width: 1; 
-            transform-origin: 400px 150px; 
+        .core {
+            fill: #00ff9d;
+            animation: pulse-core 3s infinite ease-in-out;
         }
+
+        .orbit {
+            fill: none;
+            stroke: #2d4545;
+            stroke-width: 1;
+            transform-origin: 400px 150px;
+        }
+
         .orbit-active {
-            fill: none; 
-            stroke: #00ff9d; 
-            stroke-width: 2; 
+            fill: none;
+            stroke: #00ff9d;
+            stroke-width: 2;
             stroke-dasharray: 20 180;
             stroke-linecap: round;
             transform-origin: 400px 150px;
         }
-        .outer-ring { animation: rotate-outer 20s linear infinite; }
-        .inner-ring { animation: rotate-inner 15s linear infinite; }
 
-        .packet-stream { opacity: 0.3; }
-        .grid-line { stroke: #1a2a33; stroke-width: 0.5; }
+        .outer-ring {
+            animation: rotate-outer 20s linear infinite;
+        }
+
+        .inner-ring {
+            animation: rotate-inner 15s linear infinite;
+        }
+
+        .packet-stream {
+            opacity: 0.3;
+        }
+
+        .grid-line {
+            stroke: #1a2a33;
+            stroke-width: 0.5;
+        }
     </style>
 
     <!-- Background Grid -->
-    <rect class="bg" width="100%" height="100%"/>
+    <rect class="bg" width="100%" height="100%" />
     <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-        <path d="M 40 0 L 0 0 0 40" fill="none" class="grid-line"/>
+        <path d="M 40 0 L 0 0 0 40" fill="none" class="grid-line" />
     </pattern>
-    <rect width="100%" height="100%" fill="url(#grid)"/>
+    <rect width="100%" height="100%" fill="url(#grid)" />
 
     <!-- Central AI Core -->
-    <g transform="translate(400, 150)">
+    <g transform="translate(400, 120)">
         <!-- Orbitals -->
-        <circle r="120" class="orbit" />
-        <circle r="120" class="orbit-active outer-ring" />
-        <circle r="90" class="orbit" />
-        <circle r="90" class="orbit-active inner-ring" />
-        
+        <circle r="100" class="orbit" />
+        <circle r="100" class="orbit-active outer-ring" />
+        <circle r="70" class="orbit" />
+        <circle r="70" class="orbit-active inner-ring" />
+
         <!-- Center Reactor -->
         <circle cy="0" cx="0" class="core" />
-        <path d="M -20 -10 L 0 10 L 20 -10" fill="none" stroke="#000" stroke-width="3" />
-        <path d="M -20 10 L 0 30 L 20 10" fill="none" stroke="#000" stroke-width="3" opacity="0.5" />
+        <!-- A letter -->
+        <path d="M -18 18 L -9 -18 L 0 18" fill="none" stroke="#000" stroke-width="3" />
+        <path d="M -14 3 L -4 3" fill="none" stroke="#000" stroke-width="3" />
+        <!-- I letter -->
+        <path d="M 9 -18 L 9 18" fill="none" stroke="#000" stroke-width="3" />
     </g>
 
     <!-- Data Streams (Left) -->
     <g transform="translate(50, 80)">
-         <text x="0" y="0" class="text-neon" font-size="16">&lt;FULL_STACK /&gt;</text>
-         <text x="0" y="25" class="text-dim">Loading modules...</text>
-         <text x="0" y="45" class="text-dim">> React.NextJS [READY]</text>
-         <text x="0" y="65" class="text-dim">> Python.Django [ACTIVE]</text>
-         <text x="0" y="85" class="text-dim">> DB.Connections [ESTABLISHED]</text>
-         
-         <rect x="0" y="100" width="150" height="2" fill="#2d4545" />
-         <rect x="0" y="100" width="100" height="2" fill="#00ff9d">
-             <animate attributeName="width" from="0" to="150" dur="2s" fill="freeze" />
-         </rect>
+        <text x="0" y="0" class="text-neon" font-size="16">&lt;FULL_STACK /&gt;</text>
+        <text x="0" y="25" class="text-dim">Loading LLM modules...</text>
+        <text x="0" y="45" class="text-dim">> React.NextJS [READY]</text>
+        <text x="0" y="65" class="text-dim">> Python.Django [ACTIVE]</text>
+        <text x="0" y="85" class="text-dim">> DB.Connections [ESTABLISHED]</text>
+
+        <rect x="0" y="100" width="150" height="2" fill="#2d4545" />
+        <rect x="0" y="100" width="100" height="2" fill="#00ff9d">
+            <animate attributeName="width" from="0" to="150" dur="2s" fill="freeze" />
+        </rect>
     </g>
 
     <!-- AI/ML Metrics (Right) -->
     <g transform="translate(580, 80)">
-         <text x="0" y="0" class="text-neon" font-size="16">[ AI_ENGINEER ]</text>
-         <rect x="-10" y="20" width="180" height="80" fill="none" stroke="#2d4545" stroke-width="1" />
-         
-         <text x="0" y="40" class="text-dim">Training Loss: 0.024</text>
-         <text x="0" y="60" class="text-dim">Inference: 12ms</text>
-         <text x="0" y="80" class="text-dim">Model: Transformer-XL</text>
-         
-         <!-- Animated Graph Line -->
-         <polyline points="0,90 20,85 40,88 60,70 80,75 100,50 120,55 140,40" fill="none" stroke="#00ff9d" stroke-width="1.5">
-             <animate attributeName="stroke-dasharray" from="0, 200" to="200, 0" dur="3s" fill="freeze" />
-         </polyline>
+        <text x="0" y="0" class="text-neon" font-size="16">[ AI_ENGINEER ]</text>
+        <rect x="-10" y="20" width="180" height="80" fill="none" stroke="#2d4545" stroke-width="1" />
+
+        <text x="0" y="40" class="text-dim">Training Loss: 0.024</text>
+        <text x="0" y="60" class="text-dim">Inference: 12ms</text>
+        <text x="0" y="80" class="text-dim">Model: Transformer-XL</text>
+
+        <!-- Animated Graph Line -->
+        <polyline points="0,90 20,85 40,88 60,70 80,75 100,50 120,55 140,40" fill="none" stroke="#00ff9d"
+            stroke-width="1.5">
+            <animate attributeName="stroke-dasharray" from="0, 200" to="200, 0" dur="3s" fill="freeze" />
+        </polyline>
     </g>
 
     <!-- Bottom Cybersecurity Ticker -->
     <g transform="translate(250, 260)">
-        <rect x="0" y="-15" width="300" height="30" fill="#0a0e17" stroke="#00ff9d" stroke-width="1" opacity="0.5"/>
+        <rect x="-100" y="-15" width="500" height="30" fill="#0a0e17" stroke="#00ff9d" stroke-width="1" opacity="0.5" />
         <text x="150" y="5" class="text-neon" font-size="14" text-anchor="middle">
-            SECURE_CONNECTION // ENCRYPTED // 2048-BIT
+            SECURE_CONNECTION // ENCRYPTED // 2048-BIT // PRAVIN.PY
             <animate attributeName="opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite" />
         </text>
     </g>
